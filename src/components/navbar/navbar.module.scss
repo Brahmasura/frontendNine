@@ -1,0 +1,22 @@
+.mainDiv {
+  margin-bottom: 30px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  ul {
+    display: flex;
+    list-style-type: none;
+
+    li {
+      margin: 0 10px;
+
+      &:hover {
+        color: hsl(35, 77%, 62%);
+        cursor: pointer;
+      }
+    }
+  }
+}
